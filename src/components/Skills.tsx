@@ -7,28 +7,33 @@ const Skills = () => {
       skills: [
         { 
           name: 'Laravel', 
-          logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg',
-          color: 'from-red-500 to-orange-500'
+          logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg',
+          color: 'from-red-500 to-orange-500',
+          progress: '80'
         },
         { 
           name: 'PHP', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
-          color: 'from-purple-600 to-blue-600'
+          color: 'from-purple-600 to-blue-600',
+          progress: '80'
         },
         { 
           name: 'Node.js', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
-          color: 'from-green-500 to-green-600'
+          color: 'from-green-500 to-green-600',
+          progress: '50'
         },
         { 
           name: 'Python', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
-          color: 'from-blue-500 to-yellow-500'
+          color: 'from-blue-500 to-yellow-500',
+          progress: '0'
         },
         { 
           name: 'Express.js', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
-          color: 'from-gray-600 to-gray-800'
+          color: 'from-gray-600 to-gray-800',
+          progress: '0'
         },
       ]
     },
@@ -38,27 +43,32 @@ const Skills = () => {
         { 
           name: 'MySQL', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
-          color: 'from-blue-600 to-orange-500'
+          color: 'from-blue-600 to-orange-500',
+          progress: '100'
         },
         { 
           name: 'PostgreSQL', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
-          color: 'from-blue-700 to-blue-900'
+          color: 'from-blue-700 to-blue-900',
+          progress: '100'
         },
         { 
           name: 'MongoDB', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
-          color: 'from-green-600 to-green-800'
+          color: 'from-green-600 to-green-800',
+          progress: '100'
         },
         { 
           name: 'Redis', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg',
-          color: 'from-red-600 to-red-800'
+          color: 'from-red-600 to-red-800',
+          progress: '100'
         },
         { 
           name: 'SQLite', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg',
-          color: 'from-blue-500 to-blue-700'
+          color: 'from-blue-500 to-blue-700',
+          progress: '100'
         },
       ]
     },
@@ -68,27 +78,32 @@ const Skills = () => {
         { 
           name: 'React', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
-          color: 'from-blue-400 to-blue-600'
+          color: 'from-blue-400 to-blue-600',
+          progress: '100'
         },
         { 
           name: 'Vue.js', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg',
-          color: 'from-green-400 to-green-600'
+          color: 'from-green-400 to-green-600',
+          progress: '100'
         },
         { 
           name: 'JavaScript', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-          color: 'from-yellow-400 to-yellow-600'
+          color: 'from-yellow-400 to-yellow-600',
+          progress: '100'
         },
         { 
           name: 'Git', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
-          color: 'from-orange-500 to-red-500'
+          color: 'from-orange-500 to-red-500',
+          progress: '100'
         },
         { 
           name: 'Docker', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
-          color: 'from-blue-500 to-blue-700'
+          color: 'from-blue-500 to-blue-700',
+          progress: '100'
         },
       ]
     },
@@ -98,27 +113,32 @@ const Skills = () => {
         { 
           name: 'AWS', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg',
-          color: 'from-orange-400 to-orange-600'
+          color: 'from-orange-400 to-orange-600',
+          progress: '100'
         },
         { 
           name: 'Linux', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg',
-          color: 'from-gray-700 to-black'
+          color: 'from-gray-700 to-black',
+          progress: '100'
         },
         { 
           name: 'Nginx', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg',
-          color: 'from-green-600 to-green-800'
+          color: 'from-green-600 to-green-800',
+          progress: '100'
         },
         { 
           name: 'Apache', 
           logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg',
-          color: 'from-red-600 to-red-800'
+          color: 'from-red-600 to-red-800',
+          progress: '100'
         },
         { 
           name: 'Postman', 
           logo: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg',
-          color: 'from-orange-500 to-orange-700'
+          color: 'from-orange-500 to-orange-700',
+          progress: '100'
         },
       ]
     }
@@ -178,7 +198,7 @@ const Skills = () => {
                           <div
                             className={`bg-gradient-to-r ${skill.color} h-1 rounded-full transition-all duration-1000 ease-out group-hover:w-full`}
                             style={{
-                              width: '85%',
+                              width: `${skill.progress}%`,
                               animationDelay: `${categoryIndex * 200 + skillIndex * 100}ms`
                             }}
                           ></div>
